@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html long="pt-br">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minha Página Pessoal</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+            }
+
+            htm, body{
+                height: 100vh;
+            }
+
+            body {
+                display: block;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+
+        <script src="./script.js" defer></script>
+    </head>
+    <body id="index">
+        <div class="conteudo">
+            <header class="header" style="color: white;"><!--282829 #333336-->
+                <div class="top-page" >
+                    <h1 style="font-family: Poppins; font-size: 50px;">Minha Página Pessoal!</h1>
+                    <div class="icons">
+                        <a href="https://www.instagram.com/pablo_strapasson/" target="_blank">
+                            <img src="./images/icons/instagram-icon-white-png-1.jpg" alt="Instagram">
+                        </a>
+                        <a href="https://www.facebook.com/pablo.strapasson" target="_blank">
+                            <img src="./images/icons/facebook-icon-18-256.png" alt="Facebook">
+                        </a>
+                        <a href="https://api.whatsapp.com/send?l=pt_BR&phone=5549984334649&text=Ol%C3%A1%20" target="_blank">
+                            <img src="./images/icons/whatsapp-icon-white.png" alt="Whatsapp">
+                        </a>
+                    </div>                 
+                </div>
+            </header>
+            
+            
+            <div class="first">
+                
+                <div class="foto">
+                    <img src="./images/fotoPablo.jpg" alt="Foto">
+                </div>
+                <div class="first-content">
+                    <h3 style="font-family: Archivo">Um pouco sobre mim...</h3>
+                    <p style="text-align: justify; font-family: Archivo">
+                        Olá, meu nome é Pablo, sou um estudante do curso de Ciências da Computação e estudo na 
+                        Universidade Federal de Santa Catarina, sou natural de uma cidade chamada Rio das Antas no meio-oeste catarinense
+                        mas atualmente moro em Florianópolis, a 5 anos. Entre meus gostos estão praticar e assistir esportes, de todos os tipos, 
+                        escutar musica, tocar guitarra, violão e baixo, sair com os amigos, ir a praia e como bom estudante de computação
+                        sou fã de alguns animes kkk.
+                    </p>
+                </div>   
+            </div>
+            <div class="second">
+                <form action="./index.html" id="create-hobbie">
+                    <div class="input-hobbie">
+                        <p>Digite um hobbie:</p>
+                        <input name="hobbie" id="hobbie" type="text">
+                        <button type="submit" form="create-hobbie" id="add-hobbie">Inserir Hobbie</button>
+                        <h3><strong>Coisas que eu gosto de fazer:</strong></h3>
+                        <div id="listaHobbies"></div>
+                    </div>
+                </form>
+                <form action="./script.js" id="create-question">
+                    <div class="input-question">
+                        <p>Digite alguma duvida:</p>
+                        <input name="question" id="question" type="text">
+                        <button type="submit" form="create-question" id="add-question">Inserir Duvida</button>
+                        <h3><strong>Duvidas sobre mim:</strong></h3>
+                        <div id="listaDuvidas"></div>
+                    </div>
+                </form>  
+            </div>
+        </div>
+    </body>
+</html>

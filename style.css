@@ -1,0 +1,117 @@
+#index {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/background/Background-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(118, 118, 118, 0.8);
+    width: 90vw;
+    border-radius: 1.2rem;
+    margin: 2.5% 5%;
+}
+
+.foto img {
+    width: 10rem;
+    height: 8rem;
+    border-radius: 10%;
+    margin: 20px;
+}
+
+.first-content {
+    margin: 0 40px;
+}
+
+.header {
+    margin-bottom: 16px;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;    
+}
+
+.header .top-page {
+    width: 90%;
+    margin: 3.2rem auto;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.header .top-page .icons a{
+    text-decoration: none;
+}
+
+.header .top-page .icons a img{
+    margin-top:0;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.second {
+    background: rgba(118, 118, 118, 0.7) ;
+    margin: 2.5% 5%;
+    width: 90vw;
+    border-radius: 1.2rem;
+    padding-bottom: 2%;
+}
+
+.second input{
+    width: 20%;
+    height: 2rem;
+    margin-bottom: 2%;
+    border-radius: 1.2rem;
+    border: 0;
+}
+
+.input-hobbie {
+    margin: 2.5%;
+    padding: 1%;
+    font: 100% Archivo;
+}
+
+.input-question {
+    margin: 2.5%;
+    padding: 1%;
+    font: 100% Archivo;
+}
+
+.second button {
+    width: 10%;
+    height: 2rem;
+    margin-left: 1%;
+    background: #1E2135;
+    border: 0;
+    border-radius: 0.5rem;
+    font: 100% Archivo;
+    color:white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.second button:hover {
+    background:#494F75;
+}
+
+
+.second p {
+    padding-bottom: 1.2%;
+}
+
+.lista-duvidas {
+    padding: 1%;
+    margin-left:2%;
+}
+
+.lista-hobbies {
+    padding: 1%;
+    margin-left:2%;
+}
