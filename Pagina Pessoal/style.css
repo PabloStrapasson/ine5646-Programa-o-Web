@@ -1,0 +1,19 @@
+.foto img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    grid-area: foto;
+}
+
+.layout {
+    margin-left: 16px;
+}
+
+#index p {
+    margin-left: 16px;
+}
+
+#index h1 {
+    margin-left: 16px;
+}
+
